@@ -18,10 +18,11 @@
 2 进入到项目文件夹 gh.admin  
 3 初始化 npm install  
 4 完成  
-常用命令 使用cmd进入项目文件夹gh.admin内然后输入该命令   npm run dev 启动项目
+常用命令 使用cmd进入项目文件夹gh.admin内然后输入该命令   npm run dev 启动项目 如果项目安装了 Pnpm 那么启动项目命令就可以简化成 pnpm dev即可
 
 PNPM  
 ![image](https://user-images.githubusercontent.com/46043439/206694840-6c022c0b-d0de-4fee-a950-ed7e212d40e3.png)  
 安装pnpm 打开CMD 输入 npm install -g pnpm  查看版本  pnpm --version
+SCSS(用来写样式的)  SCSS的安装命令 pnpm install sass --save  
 # VUE项目目录解析
 ![image](https://user-images.githubusercontent.com/46043439/206694135-3e320e4c-e7df-460a-bf23-a4dbfacaa7cc.png)
