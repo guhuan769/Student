@@ -24,5 +24,7 @@ PNPM
 ![image](https://user-images.githubusercontent.com/46043439/206694840-6c022c0b-d0de-4fee-a950-ed7e212d40e3.png)  
 安装pnpm 打开CMD 输入 npm install -g pnpm  查看版本  pnpm --version
 SCSS(用来写样式的)  SCSS的安装命令 pnpm install sass --save  
+前台框架
+Element Plus 基于VUE3 面向设计师和开发者组件库(https://element-plus.gitee.io/zh-CN)  
 # VUE项目目录解析
 ![image](https://user-images.githubusercontent.com/46043439/206694135-3e320e4c-e7df-460a-bf23-a4dbfacaa7cc.png)
