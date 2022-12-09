@@ -14,9 +14,14 @@ import HelloWorld from './components/HelloWorld.vue'
     </a>
   </div>
   <HelloWorld msg="Vite + Vue" />
+  <div class="main">
+    <span class="left">张三1</span>
+    <span class="right">李四</span>
+    <el-button type="primary">Primary</el-button>
+  </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -27,5 +32,24 @@ import HelloWorld from './components/HelloWorld.vue'
 }
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
+}
+// .main .left
+// {
+//   color:red;
+// }
+// .main .right
+// {
+//   color: green;
+// }
+.main
+{
+  .left
+  {
+    color:red;
+  }
+  .right
+  {
+    color:yellow;
+  }
 }
 </style>
