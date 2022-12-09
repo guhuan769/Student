@@ -4,4 +4,5 @@
 [安装环境VSCODE](#安装环境VSCODE)  
   
 # 安装环境VSCODE  
-131232  
+![image](https://user-images.githubusercontent.com/46043439/206680917-80774d0a-67f4-4263-b387-406380b5631c.png)  
+ 检测NODEJS是否安装好 window+R打开CMD 输入命令 node --version 即可
