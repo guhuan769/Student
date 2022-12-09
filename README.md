@@ -17,4 +17,4 @@
 2 进入到项目文件夹 gh.admin  
 3 初始化 npm install  
 4 完成  
-常用命令  npm run dev 启动项目
+常用命令 使用cmd进入项目文件夹gh.admin内然后输入该命令   npm run dev 启动项目
