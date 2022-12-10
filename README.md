@@ -35,6 +35,8 @@ Element Plus 基于VUE3 面向设计师和开发者组件库(https://element-plu
 ![image](https://user-images.githubusercontent.com/46043439/206699533-464840bf-0e53-44d5-afba-31a026047567.png)
 安装命令  pnpm install element-plus --save  
 # 路由的配置与使用
+![Uploading image.png…]()  
+
 ```![image](https://user-images.githubusercontent.com/46043439/206701686-93986a3f-d8f8-4e20-a722-d58c7d6d298f.png)  
 import { createRouter, createWebHistory } from 'vue-router'
 import HomePage from "/views/HomePage.vue"
