@@ -78,13 +78,32 @@ const onSubmit=async(ruleFormRef:FormInstance|undefined)=>{
         if(valid)
         {
             console.log("正在登录")
-             
+            ElMessage({
+                type:"success",
+                message:"正在登录..."
+            }) 
         }
         else
         { 
+            //弹窗提示
+            
             //如果验证不通过那么就请弹窗    
             console.log(fileds)
             console.log(fileds+" DDD "+valid)
+            
+            //声明一个变量 他的变量是什么类型呢？ string
+            let errors:string="";
+            //从fileds里面取值?代表如果不为空就取 
+            fileds?.userName?.forEach(element=>{
+                errors+=element.message+";"
+            })
+            fileds?.passWord?.forEach(element=>{
+                errors+=element.message+";"
+            })
+            ElMessage({
+                type:"warning",
+                message:errors
+            })
         }
     });
 }
