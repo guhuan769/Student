@@ -9,7 +9,11 @@ import 'element-plus/dist/index.css'
 import router from './router'
 //引入全局样式
 import './assets/css/global.scss'
+//导入vuex
+import sotre from './vuex/index'
 //该文件为全局导入
 createApp(App)
-.use(ElementPlus).use(router)
+.use(ElementPlus)
+.use(router)
+.use(sotre)
 .mount('#app')

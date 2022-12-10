@@ -1,0 +1,102 @@
+<template>
+    <div class="common-layout">
+        <el-container>
+            <el-aside class="aside-menu">
+                <el-row>
+                    <el-col :span="24">
+                        <div class="homepageLogo">
+                            <ul>
+                                <li>
+                                    <el-image style="width: 50px; height: 50px" :src="url" fit="fill" />
+                                </li>
+                                <li><span>ghAdmin</span></li>
+                            </ul>
+                        </div>
+                    </el-col>
+                </el-row>
+                <el-row class="tac">
+                    <el-col :span="24">
+                        <el-menu active-text-color="#ffd04b" background-color="#545c64" class="el-menu-vertical-demo"
+                            default-active="2" text-color="#fff" >
+                            <!-- 默认会有个首页的入口 -->
+                            <el-menu-item index='/desktop'>
+                                <template #title>
+                                    <el-icon>
+                                        <list />
+                                    </el-icon>
+                                    <span>工作台</span>
+                                </template>
+                            </el-menu-item>
+                            <el-menu-item index='/person'>
+                                <template #title>
+                                    <el-icon>
+                                        <list />
+                                    </el-icon>
+                                    <span>信息编辑</span>
+                                </template>
+                            </el-menu-item>
+                            <!-- <el-menu-item index='/menumanager'>
+                <template #title>
+                  <el-icon>
+                    <list />
+                  </el-icon>
+                  <span>菜单管理</span>
+                </template>
+              </el-menu-item>
+              <el-menu-item index='/rolemanager'>
+                <template #title>
+                  <el-icon>
+                    <list />
+                  </el-icon>
+                  <span>角色管理</span>
+                </template>
+              </el-menu-item>
+              <el-menu-item index='/personmanager'>
+                <template #title>
+                  <el-icon>
+                    <list />
+                  </el-icon>
+                  <span>用户管理</span>
+                </template>
+              </el-menu-item> -->
+                            <TreeMenuVue ></TreeMenuVue>
+                        </el-menu>
+                    </el-col>
+                </el-row>
+            </el-aside>
+            <el-container>
+                <el-header>
+                    <HeaderCom></HeaderCom>
+                </el-header>
+                <el-main>
+                    <router-view></router-view>
+                </el-main>
+            </el-container>
+        </el-container>
+    </div>
+</template>
+<script setup lang="ts">
+import { ref, onMounted, toRef } from 'vue'
+import HeaderCom from '../../components/HeaderCom.vue'
+// import TreeMenuVue from '../../components/TreeMenu.vue';
+const url = ref('/images/logo.ico')
+url.value = "/images/logo.0606fdd2.png"
+</script>
+<style lang="scss" scoped>
+.homepageLogo {
+  height: 50px;
+  line-height: 50px;
+
+  span {
+    color: white;
+    font-size: 24px;
+  }
+
+  ul {
+    li {
+      float: left;
+      margin-left: 5px;
+    }
+  }
+}
+</style>
