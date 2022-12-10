@@ -19,10 +19,11 @@ defineProps({
 <template>
     <div class="card">
         <div class="left">
-            <!-- <coffee-cup v-if="info?.Icon == 'CoffeeCup'" />
+            <!-- <Apple v-if="info?.Icon == 'CoffeeCup'"></Apple> -->
+            <coffee-cup v-if="info?.Icon == 'CoffeeCup'" />
             <apple v-if="info?.Icon == 'Apple'" />
             <drizzling v-if="info?.Icon == 'Drizzling'" />
-            <headset v-if="info?.Icon == 'Headset'" /> -->
+            <headset v-if="info?.Icon == 'Headset'" />
             <p> {{ info?.Icon }}</p>
             <!-- <el-icon :size="20">
                 <Edit />
