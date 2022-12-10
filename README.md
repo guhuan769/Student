@@ -13,8 +13,9 @@
 ![image](https://user-images.githubusercontent.com/46043439/206680917-80774d0a-67f4-4263-b387-406380b5631c.png)  
  检测NODEJS是否安装好 window+R打开CMD 输入命令 node --version 即可
  
- ## 1.VUE安装图标
-# 使用VUE快速构建项目
+ ## 1.VUE安装图标  
+ https://element-plus.gitee.io/zh-CN/component/icon.html#%E5%AE%89%E8%A3%85  
+# 使用VUE快速构建项目  
 1 vue demo create   
 2 npm npm init vite@latest gh.admin  注意该语法最好用小写不然会报错  
 1 与 2的区别 比如 官方的方法需要10秒 2NPM只需要2秒   
