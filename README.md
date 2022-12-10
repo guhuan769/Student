@@ -49,6 +49,11 @@ routes:[{path:'/',component:HomePage},
 })
 export default router
 # VUEX的使用  
-vuex其实就是用来做状态管理  那么状态管理究竟是什么呢 比如登录的时候就给在线状态 退出系统就下线或者情况  
+vuex其实就是用来做状态管理  那么状态管理究竟是什么呢 比如登录的时候就给在线状态 退出系统就下线或者情况  状态存储在哪里呢 状态存储在VUEX里  为了持久化不仅在VUEX里有本地也是有存储的 总结2方面一是存储在浏览器里 或者状态管理(vuex)  
+VUEX安装命令  
+
+```  
+pnpm install vuex@netx --save  
+
 ![image](https://user-images.githubusercontent.com/46043439/206839141-f367756e-0fe8-467d-b586-995a26ab4606.png)
 
