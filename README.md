@@ -2,7 +2,7 @@
 学习地址 :https://www.bilibili.com/video/BV1Pv4y1375c/?p=3&spm_id_from=pageDriver&vd_source=d8a4c09db5e33f3ebcb6438e6fe66cd7  P16未  
 ## 目录  
 [安装环境VSCODE](#安装环境VSCODE) 
-[1.VUE安装图标](##1.VUE安装图标)  
+*   [1.VUE安装图标](##1.VUE安装图标)  
 
 [使用VUE快速构建项目](#使用VUE快速构建项目)  
 [VUE项目目录解析](#VUE项目目录解析)  
