@@ -6,6 +6,7 @@
 [VUE项目目录解析](#VUE项目目录解析)  
 [Element-Plus框架的安装与使用](#Element-Plus框架的安装与使用)  
 [路由的配置与使用](#路由的配置与使用)  
+[VUEX的使用](#VUEX的使用)
 # 安装环境VSCODE  
 ![image](https://user-images.githubusercontent.com/46043439/206680917-80774d0a-67f4-4263-b387-406380b5631c.png)  
  检测NODEJS是否安装好 window+R打开CMD 输入命令 node --version 即可
@@ -47,3 +48,14 @@ routes:[{path:'/',component:HomePage},
 {path:'/loveflower',component:LoveFower}]
 })
 export default router
+```
+# VUEX的使用  
+
+vuex其实就是用来做状态管理  那么状态管理究竟是什么呢 比如登录的时候就给在线状态 退出系统就下线或者情况  状态存储在哪里呢 状态存储在VUEX里  为了持久化不仅在VUEX里有本地也是有存储的 总结2方面一是存储在浏览器里 或者状态管理(vuex)  
+VUEX安装命令  
+
+```  
+pnpm install vuex@netx --save  
+```
+![image](https://user-images.githubusercontent.com/46043439/206839141-f367756e-0fe8-467d-b586-995a26ab4606.png)
+
