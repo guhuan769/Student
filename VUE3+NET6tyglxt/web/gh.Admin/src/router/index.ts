@@ -6,7 +6,7 @@ import RootPage from '../view/index/RootPage.vue'
 import DeskTop from '../view/index/DeskTop.vue'
 
 import PersonCenter from '../view/index/PersonCenter.vue'
-import Menumanager from '../view/admin/Menumanager.vue'
+import Menumanager from '../View/admin/menu/Menumanager.vue'
 // import LoveFower from "/views/LoveFlower.vue"
 //此处为路由用于http导航
 const router = createRouter({
