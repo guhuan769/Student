@@ -9,6 +9,7 @@
 [Element-Plus框架的安装与使用](#Element-Plus框架的安装与使用)  
 [路由的配置与使用](#路由的配置与使用)  
 [VUEX的使用](#VUEX的使用)
+[ECharts VUE使用](#ECharts VUE使用)
 # 安装环境VSCODE  
 ![image](https://user-images.githubusercontent.com/46043439/206680917-80774d0a-67f4-4263-b387-406380b5631c.png)  
  检测NODEJS是否安装好 window+R打开CMD 输入命令 node --version 即可
@@ -63,4 +64,6 @@ VUEX安装命令
 pnpm install vuex@netx --save  
 ```
 ![image](https://user-images.githubusercontent.com/46043439/206839141-f367756e-0fe8-467d-b586-995a26ab4606.png)
+
+# ECharts VUE使用  
 
