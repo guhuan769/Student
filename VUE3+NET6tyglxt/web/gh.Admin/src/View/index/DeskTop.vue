@@ -2,21 +2,21 @@
 <template>
     <div class="cardContent">
         <!-- 这样就实现了一个调用   -->
-        <el-card class="box-card" v-for="item in list" >
+        <el-card class="box-card" v-for="item in list">
 
-        <!-- 那么该组件如何传值呢 之前在CardCom 定义了一个info  -->
-            <CardCom :info="item" ></CardCom>
+            <!-- 那么该组件如何传值呢 之前在CardCom 定义了一个info  -->
+            <CardCom :info="item"></CardCom>
         </el-card>
         <el-card class="left">
             <!-- 饼图 -->
             <Pie></Pie>
         </el-card>
+
         <el-card class="right">
             <!-- 柱状图 -->
             <Histogram></Histogram>
         </el-card>
         <el-card class="lineCard">
-            <!-- 折线图 -->
             <Line></Line>
         </el-card>
     </div>
@@ -27,7 +27,13 @@
 import { ref } from 'vue'
 //导入卡片组件
 import CardCom from '../../components/CardCom.vue'
-const list=ref([
+//导入图表 饼图
+import Pie from '../../components/Echarts/Pie.vue'
+//导入柱状图
+import Histogram from '../../components/Echarts/Histogram.vue'
+
+import Line from '../../components/Echarts/Line.vue'
+const list = ref([
     {
         "Title": "新增用户",
         "Icon": "CoffeeCup",
@@ -64,10 +70,16 @@ const list=ref([
         margin-bottom: 20px;
     }
 
-    .left,
+    .left {
+        float: left;
+        width: 49%;
+        margin-bottom: 20px;
+
+    }
+
     .right {
         float: left;
-        width: 48%;
+        width: 49%;
         margin-bottom: 20px;
     }
 
@@ -78,6 +90,5 @@ const list=ref([
     .right {
         margin-left: 20px;
     }
-
 }
 </style>

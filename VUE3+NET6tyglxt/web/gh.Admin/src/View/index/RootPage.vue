@@ -83,6 +83,7 @@ const url = ref('/images/logo.ico')
 url.value = "/images/logo.0606fdd2.png"
 </script>
 <style lang="scss" scoped>
+.aside-menu{width: 15%;}
 .homepageLogo {
   height: 50px;
   line-height: 50px;
