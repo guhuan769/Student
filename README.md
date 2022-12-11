@@ -66,4 +66,5 @@ pnpm install vuex@netx --save
 ![image](https://user-images.githubusercontent.com/46043439/206839141-f367756e-0fe8-467d-b586-995a26ab4606.png)
 
 # EChartsVUE使用 
+说明 Echarts 饼图
 1 https://echarts.apache.org/handbook/zh/basics/download  
